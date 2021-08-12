@@ -1,1 +1,17 @@
-# AWS-Amplify-React
+# AWS Amplify React
+
+An example portfolio site hosted on AWS.
+
+BACKEND:
+
+Built using express/serverless Node through AWS Amplify, using the Amplify CLI. There is a contact form which uses an API Gateway, AWS Lambda and an Amazon DynamoDB table to store all the contacts and messages. Cognito is used for identity management during development (User Pools). As expected, the sites static files are served from an S3 Bucket and monitoring is provided by CloudWatch. 
+I also set up and connected a custom domain using Route 53.
+
+FRONTEND: 
+
+Built with React, this is just an example portfolio project. Mainly built to use react router and try some more interesting page transiitions. The animations on the page are taken care of by GSAP. An amazing library.
+
+
+![ServNodeExp](https://user-images.githubusercontent.com/64211348/129233090-5b6658f0-f27c-4b9c-ab67-f59755356596.jpg)
+(An attempt at visualizing the underlying architecture)
+
