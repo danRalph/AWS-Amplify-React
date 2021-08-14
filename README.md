@@ -26,5 +26,6 @@ Built with React, this is just an example portfolio project. Mainly built to use
 - Lambda
 - DynamoDB
 - React
+- GSAP
 
 
