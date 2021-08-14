@@ -1,5 +1,8 @@
-# AWS AMPLIFY REACT
+<h1 align="center">AWS AMPLIFY REACT</h1>
+![reac-amp2](https://user-images.githubusercontent.com/64211348/129454742-7e45197f-5a2f-48f7-a04c-7e0459b4a6a7.jpg)
 
+
+# Description
 An example portfolio site hosted on AWS. I originally already had an express backend for this site, but not built with Amplify. The contact form was dealt with using Node Mailer.
 I decided to rebuild the backend try and get to grips with Amplify and it's CLI.
 
@@ -14,5 +17,13 @@ Built with React, this is just an example portfolio project. Mainly built to use
 
 ## System Architecture
 ![ServNodeExp](https://user-images.githubusercontent.com/64211348/129233090-5b6658f0-f27c-4b9c-ab67-f59755356596.jpg)
-(An attempt at visualizing the underlying infrastructure/architecture)
+
+## Built With
+
+- AWS Amplify
+- API Gateway
+- Lambda
+- DynamoDB
+- React
+
 
