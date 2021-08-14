@@ -1,3 +1,4 @@
+
 <h1 align="center">AWS AMPLIFY REACT</h1>
 
 
@@ -15,7 +16,8 @@ I also set up and connected a custom domain using Route 53.
 Built with React, this is just an example portfolio project. Mainly built to use react router and try some more interesting page transiitions. The animations on the page are taken care of by GSAP. An amazing library.
 
 ## System Architecture
-![ServNodeExp](https://user-images.githubusercontent.com/64211348/129233090-5b6658f0-f27c-4b9c-ab67-f59755356596.jpg)
+
+![serverlessNode2](https://user-images.githubusercontent.com/64211348/129455744-f6996776-b1d5-4c24-a4d1-475bbdfe77f3.jpg)
 
 ## Built With
 
