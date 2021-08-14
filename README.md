@@ -1,5 +1,4 @@
 <h1 align="center">AWS AMPLIFY REACT</h1>
-![reac-amp2](https://user-images.githubusercontent.com/64211348/129454742-7e45197f-5a2f-48f7-a04c-7e0459b4a6a7.jpg)
 
 
 # Description
