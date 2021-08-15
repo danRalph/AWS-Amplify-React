@@ -13,7 +13,8 @@ I decided to rebuild the backend try and get to grips with Amplify and it's CLI.
 
 
 
-Built using express/serverless Node through AWS Amplify, using the Amplify CLI. There is a contact form which uses an API Gateway, AWS Lambda and an Amazon DynamoDB table to store all the contacts and messages. Cognito is used for identity management (User Pools). As expected, the sites static files are served from an S3 Bucket and monitoring is provided by CloudWatch. 
+Built using express/serverless Node through AWS Amplify, using the Amplify CLI. There is a contact form which uses an API Gateway, AWS Lambda and an Amazon DynamoDB table to store all the contacts and messages. Cognito is used for identity management (User Pools). 
+The sites static files are served from an S3 Bucket and monitoring is provided by CloudWatch. 
 I also set up and connected a custom domain using Route 53.
 
 ## Frontend
