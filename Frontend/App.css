@@ -520,8 +520,8 @@ input[type=text], input[type=email], select, textarea {
         width: 250px;
         height: 150px;
         
-        top: 32%;
-        left: 17%;
+        top: 30%;
+        left: 19%;
     }
     .box2,
     .boxRed {
@@ -541,7 +541,7 @@ input[type=text], input[type=email], select, textarea {
     }
     .home-content {
         font-size: 1em;
-        padding-top: 6.6em;
+        padding-top: 4.2em;
     }
         .home-content p {
             padding-left: 1em;
@@ -553,7 +553,7 @@ input[type=text], input[type=email], select, textarea {
         padding-top: 7em;
     } .home-footer p {
           opacity: 0.6;
-          padding-top: 6em;
+          padding-top: 4em;
       }
 
     .row {
@@ -583,6 +583,10 @@ input[type=text], input[type=email], select, textarea {
     }
     .about {
         height: 89%;
+    }
+    .about-para p {
+        padding-left: 2em;
+        padding-right: 2em;
     }
     .projects-header p {
         padding-left: 1.4em;
@@ -642,12 +646,18 @@ input[type=text], input[type=email], select, textarea {
 
     .contact-content p {
         font-size: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     .container {
         padding-bottom: 6em;
     }
     .container label {
         font-size: 0.8em;
+    }
+    .container button {
+        padding: 8px 12px;
+        font-size: 0.9em;
     }
 
     .footer {
