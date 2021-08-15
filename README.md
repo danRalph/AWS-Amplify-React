@@ -18,7 +18,7 @@ I also set up and connected a custom domain using Route 53.
 
 ## Frontend
 
-![reactl](https://user-images.githubusercontent.com/64211348/129481931-7da353d7-eabe-443f-b4ec-6cde754b92bb.jpg)
+![reactl](https://user-images.githubusercontent.com/64211348/129482032-63387fa8-c52e-45c3-9142-4a4c9d161284.jpg)
 
 Built with React, this is just an example portfolio project. Mainly built to use react router and try some more interesting page transiitions. The animations on the page are taken care of by GSAP. An amazing library.
 
