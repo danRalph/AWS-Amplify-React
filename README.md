@@ -21,7 +21,7 @@ I also set up and connected a custom domain using Route 53.
 
 ![reactl](https://user-images.githubusercontent.com/64211348/129482032-63387fa8-c52e-45c3-9142-4a4c9d161284.jpg)
 
-Built with React, this is just an example portfolio project. Mainly built to use react router and try some more interesting page transiitions. The transition animations on the page are taken care of by GSAP (GreenSock). An amazing library.
+Built with React, this is just an example portfolio project. Mainly built to use react router and try some more interesting page transiitions. The page features transition animations taken care of by GSAP (GreenSock), SVG animations, and a custom cursor.
 
 ## System Architecture
 
