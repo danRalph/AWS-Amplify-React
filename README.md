@@ -33,6 +33,7 @@ Built with React, this is just an example portfolio project. Mainly built to use
 - API Gateway
 - Lambda
 - DynamoDB
+- S3
 - React
 - GSAP
 
