@@ -17,6 +17,38 @@ Built using express/serverless Node through AWS Amplify, using the Amplify CLI. 
 The sites static files are served from an S3 Bucket and monitoring is provided by CloudWatch. 
 I also set up and connected a custom domain using Route 53.
 
+### Lambda
+
+The code for the Lambda Function:
+
+```
+const AWS = require('aws-sdk');
+const docClient = new AWS.DynamoDB.DocumentClient();
+
+function id () {
+  return Math.random().toString(36).substring(2) + Date.now().toString(36);
+}
+
+app.post('/contact', function(req, res) {
+  console.log(req);
+
+  var params = {
+    TableName : process.env.STORAGE_FORMTABLE_NAME,
+    Item: {
+      id: id(),
+      name: req.body.name,
+      email: req.body.email,
+      message: req.body.message
+    }
+  }
+  docClient.put(params, function(err, data) {
+    if (err) res.json ({ err })
+    else res.json({ success: 'Contact created!' })
+  })
+});
+
+```
+
 ## Frontend
 
 ![reactl](https://user-images.githubusercontent.com/64211348/129482032-63387fa8-c52e-45c3-9142-4a4c9d161284.jpg)
