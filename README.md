@@ -19,7 +19,7 @@ I also set up and connected a custom domain using Route 53.
 
 ### Lambda
 
-The contact form code block, for the Lambda Function:
+The contact form code, for the Lambda Function:
 
 ```
 const AWS = require('aws-sdk');
