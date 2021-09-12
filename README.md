@@ -63,6 +63,7 @@ Built with React, this is just an example portfolio project. Mainly built to use
 - DynamoDB
 - S3
 - React
+- React Router
 - GSAP
 
 
