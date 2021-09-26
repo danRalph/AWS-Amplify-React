@@ -4,7 +4,7 @@
 
 
 # Description
-An example portfolio site hosted on AWS. I originally already had an express backend for this site, but not built with Amplify. The contact form was dealt with using Node Mailer.
+My current portfolio site, hosted on AWS. I originally already had an express backend for this site, but not built with Amplify. The contact form was dealt with using Node Mailer.
 I decided to rebuild the backend try and get to grips with Amplify and it's CLI.
 
 ## Backend 
