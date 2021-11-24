@@ -1,6 +1,6 @@
 
 
-<h1 align="center">AWS AMPLIFY REACT</h1>
+<h1 align="center">AWS AMPLIFY REACT</h1> 
 
 
 # Description
